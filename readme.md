@@ -41,3 +41,7 @@ chmod 755  the_path_to_target
 
 ###### Kill all the screens 
 ```killall screen```
+
+#### Running / Checking the status of process
+###### Check the status using ```pm2 status```
+###### Run the Flask API process using ```pm2 start python3 ml_flask_api.py```
