@@ -16,3 +16,13 @@ sudo scp -i /path/to/key.pem -r /Users/directory path/ ubuntu@ec2-**-***-***-***
 ```
 sudo scp -i /path/to/key.pem /Users/file path/ ubuntu@ec2-**-***-***-***.compute-1.amazonaws.com:/home/ubuntu/file path/
 ```
+
+##### To change the folder permissions
+###### For drwxrwxr-x:
+```
+chmod 775  the_path_to_target
+```
+###### For drwxr-xr-x:
+```
+chmod 755  the_path_to_target
+```
