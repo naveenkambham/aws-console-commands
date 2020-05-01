@@ -27,7 +27,7 @@ chmod 775  the_path_to_target
 chmod 755  the_path_to_target
 ```
 
-#### To create a screen and detach from it, usefull for running flask services
+#### To create a screen and detach from it, usefull for running flask services in the backend
 
 ###### To start your program:
 * Log in with ssh,
@@ -42,6 +42,8 @@ chmod 755  the_path_to_target
 ###### Kill all the screens 
 ```killall screen```
 
-#### Running / Checking the status of process
-###### Check the status using ```pm2 status```
+#### Running the process using pm2 
 ###### Run the Flask API process using ```pm2 start python3 ml_flask_api.py```
+###### Check the status using ```pm2 status```
+###### Delete the process using ```pm2 delete process_name```
+
