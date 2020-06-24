@@ -17,6 +17,24 @@ sudo scp -i /path/to/key.pem -r /Users/directory path/ ubuntu@ec2-**-***-***-***
 sudo scp -i /path/to/key.pem /Users/file path/ ubuntu@ec2-**-***-***-***.compute-1.amazonaws.com:/home/ubuntu/file path/
 ```
 
+#### VIM editor for editing the code on ec2 from terminal 
+###### Open the file using VIM:
+```
+vim  file
+```
+###### enter the edit mode by pressing 'i' key and use 'Esc' key to exit the edit mode
+
+###### save the file by pressing ':', now the cursor reappear at the lower left. Type x and press "Enter" key to save the file
+```
+:x
+```
+
+
+###### discard changes by pressing "Esc" and exit the Vim by pressing ':q', follwed by "Enter" 
+```
+:q
+```
+
 #### To change the folder permissions
 ###### For drwxrwxr-x:
 ```
