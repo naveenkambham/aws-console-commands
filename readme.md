@@ -63,5 +63,6 @@ chmod 755  the_path_to_target
 #### Running the process can also be done using process manager, pm2 which can restart the process automatically due to scheduled maintenance etc.  
 ###### Run the Flask API process using ```pm2 start python3 ml_flask_api.py```
 ###### Check the status using ```pm2 status```
+###### Check the log files if there are any errors using ```pm2 logs```
 ###### Delete the process using ```pm2 delete process_name```
 
